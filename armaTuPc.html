@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arma tu PC</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <!-- Creo el header estandar para todos los html -->
+    <div class="divContenedor">
+        <div class="header">
+            <a class="logo">New Way Components</a>
+            <div class="header-right">
+                <a href="index.html">Inicio</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="motherboards.html">MotherBoards</a>
+                <a href="procesadores.html">Procesadores</a>
+                <a href="almacenamiento.html">Almacenamiento</a>
+                <a href="tarjetasGraficas.html">Tarjetas Gráficas</a>
+            </div>
+        </div>
+
+        <!-- contenedor -->
+        <h1>Elegí tus componentes!</h1>
+        <div class="gridArmaTuPc">
+            <!-- cada uno de los ítems del grid se agregan los label y checkbox para el estilo de la eleccion de los componentes-->
+            <div class="gridProcesadorArmaTuPc">Procesadores
+                <label data-on="ON" data-off="OFF" class="toggleSwitch">
+                    <span>Intel Core i3 10100f</span>
+                    <input type="checkbox" checked="checked" />
+                    <span class="knob"></span>
+                </label>
+
+                <label data-on="ON" data-off="OFF" class="toggleSwitch">
+                    <span>CPU Intel Core i5 12600K
+                    </span>
+                    <input type="checkbox" />
+                    <span class="knob"></span>
+                </label>
+
+                <label data-on="ON" data-off="OFF" class="toggleSwitch">
+                    <span>Intel Core i3 10105</span>
+                    <input type="checkbox" />
+                    <span class="knob"></span>
+                </label>
+            </div>
+            <div class="gridGraficaArmaTuPc">Graficas
+                <label data-on="ON" data-off="OFF" class="toggleSwitch">
+                    <span>Radeon RX550 4gb ddr5</span>
+                    <input type="checkbox" checked="checked" />
+                    <span class="knob"></span>
+                </label>
+
+                <label data-on="ON" data-off="OFF" class="toggleSwitch">
+                    <span>Radeon RX6700 XT GAMING</span>
+                    <input type="checkbox" />
+                    <span class="knob"></span>
+                </label>
+
+                <label data-on="ON" data-off="OFF" class="toggleSwitch">
+                    <span>GeForce RTX 3070 KO 8GB GDDR6</span>
+                    <input type="checkbox" />
+                    <span class="knob"></span>
+                </label>
+            </div>
+            <div class="gridAlmacenamientoArmaTuPc">Almacenamiento
+                <label data-on="ON" data-off="OFF" class="toggleSwitch">
+                    <span>DATA SU650 120Gb</span>
+                    <input type="checkbox" checked="checked" />
+                    <span class="knob"></span>
+                </label>
+
+                <label data-on="ON" data-off="OFF" class="toggleSwitch">
+                    <span>Team M.2-2280 Pci-e Gen3 x4 MP33 256GB</span>
+                    <input type="checkbox" />
+                    <span class="knob"></span>
+                </label>
+
+                <label data-on="ON" data-off="OFF" class="toggleSwitch">
+                    <span>SSD Crucial P2 500GB PCIe M.2</span>
+                    <input type="checkbox" />
+                    <span class="knob"></span>
+                </label>
+            </div>
+            <div class="gridMotherBoardsArmaTuPc">Motherboards
+                <label data-on="ON" data-off="OFF" class="toggleSwitch">
+                    <span>BIOSTAR H310MHP</span>
+                    <input type="checkbox" checked="checked" />
+                    <span class="knob"></span>
+                </label>
+
+                <label data-on="ON" data-off="OFF" class="toggleSwitch">
+                    <span>BIOSTAR H410MH</span>
+                    <input type="checkbox" />
+                    <span class="knob"></span>
+                </label>
+
+                <label data-on="ON" data-off="OFF" class="toggleSwitch">
+                    <span>Asus Prime B660M-A D4</span>
+                    <input type="checkbox" />
+                    <span class="knob"></span>
+                </label>
+            </div>
+        </div>
+        <!-- Agrego el footer con las redes de contacto -->
+        <footer class="footerArmaTuPc">
+            <a href="https://www.instagram.com"><img src="img/Instagram icono.png"></a>
+            <a href="https://www.facebook.com"><img src="img/Facebook icono.png"></a>
+        </footer>
+    </div>
+</body>
+
+</html>
